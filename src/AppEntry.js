@@ -1,5 +1,6 @@
-import registerRootComponent from "expo/build/launch/registerRootComponent";
+import registerRootComponent from 'expo/build/launch/registerRootComponent';
+import 'react-native-gesture-handler';
 
-import App from "./App";
+import Routes from './Routes';
 
-registerRootComponent(App);
+registerRootComponent(Routes);
